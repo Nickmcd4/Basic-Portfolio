@@ -16,7 +16,7 @@ body { background-image: url("../images/background.png");
 #name {
     color: #ffffff;
     background-color: #4aaaa5;
-    position: fixed;
+    position: absolute;
     top: 0;
     padding: 10px;
     overflow: auto;
@@ -27,11 +27,20 @@ body { background-image: url("../images/background.png");
 
 /* Float the link section to the right */
 .header-right {
-    float: right;
     text-align: center;
     right:260px;
-    position:fixed;
+    margin: 0 260px 0 0;
     color: #777777;
+}
+
+ul li { list-style-type: none;
+        text-decoration: none;
+        
+        
+}
+
+li { float: right;
+    padding: 0 2px;
 }
 
 /* Styling links*/
@@ -55,11 +64,12 @@ a:hover {
 /*Styling for index page*/
 #main {
     width: 960px;
+    z-index: -10;
     border: solid #dddddd;
     padding: 25px;
     margin: 0 auto;
     background-color: #ffffff;
-    position: fixed;
+    
     top:40%;
     left: 50%;
     transform: translate(-50%, -50%);
