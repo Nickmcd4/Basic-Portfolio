@@ -80,8 +80,6 @@ a:hover {
     padding: 0px 0px 20px 0px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-/*Styling for index page*/
 .main {
     /*Div styling*/
     width: 910px; /*total length is 960px (-50px for padding)*/
@@ -99,30 +97,13 @@ a:hover {
     margin-top: 100px;
     margin-bottom: 200px;
 }
-
+/*Styling for index page (text syling is above)*/
 #img { 
    float: left;
    padding: 3px 20px 10px 0px;
 }
 
 /*styling for contact page*/
-#contact {
-    width: 910px;
-    z-index:-10
-    border: solid #dddddd;
-    padding: 25px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    /*Text Styling*/
-    text-align: left;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    /*Positioning*/
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 5px;
@@ -152,10 +133,13 @@ input[type=submit]:hover {
 }
 
 /*Styling for portfolio*/
-.imagecontainer {
-    float:left;
+.left_float {float:left
 }
 
+.imgcontainer {
+    padding: 0px 15px 0px 0px;
+
+}
 /*Footer*/
 .footer {
    /*Div styling*/
@@ -181,9 +165,4 @@ input[type=submit]:hover {
     margin: 0px 0px 10px 0px;
     font-size: small;
 }
-
-
-
-
-
 
